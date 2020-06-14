@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+    firebaseConfig :{
+    apiKey: "AIzaSyClmUBh-jWcIraBKoRPMb226YniZhrgbQE",
+    authDomain: "sniperbot-crypto.firebaseapp.com",
+    databaseURL: "https://sniperbot-crypto.firebaseio.com",
+    projectId: "sniperbot-crypto",
+    storageBucket: "sniperbot-crypto.appspot.com",
+    messagingSenderId: "995609823621",
+    appId: "1:995609823621:web:54eeccda1b7d5bd814dcec",
+    measurementId: "G-GS8TDDQHWC"
+  }
+
 };
 
 /*

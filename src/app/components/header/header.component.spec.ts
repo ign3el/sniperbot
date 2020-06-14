@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InitialPageComponent } from './initial-page.component';
+import { InitialPageComponent } from './header.component';
 
 describe('InitialPageComponent', () => {
   let component: InitialPageComponent;

@@ -1,0 +1,27 @@
+.container {
+  display:grid;
+  grid-template-areas:
+                "h h h h h h l"
+                "c c c c c c c"
+                "c c c c c c c"
+                "c c c c c c c"
+                "c c c c c c c"
+                "c c c c c c c"
+                "f f f f f f f";
+  grid-gap:10px;
+
+}
+.header {
+  grid-area:h;
+}
+.content {
+  grid-area: c;
+}
+.footer {
+  grid-row: f;
+}
+.logo {
+  text-align: center;
+  align-self: center;
+  grid-area:l;
+}
