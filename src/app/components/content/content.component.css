@@ -1,0 +1,16 @@
+.txtArea {
+  height: 300px;
+  width: 300px;
+}
+.btn:hover {
+  text-decoration: none;
+  box-shadow: 0px 1px 1px black;
+  background-color: chartreuse;
+}
+.btn {
+  text-decoration: none;
+  box-shadow: 5px 5px 5px grey;
+  background-color: chartreuse;
+  text-transform: uppercase;
+  font-weight: bold;
+}
